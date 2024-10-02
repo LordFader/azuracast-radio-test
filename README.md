@@ -15,5 +15,3 @@ Bootstrap [Test](https://azuracast-radio-test.netlify.app/index.player.html) Boo
 [![Netlify Status](https://api.netlify.com/api/v1/badges/d5ee7575-abb8-4233-9629-e9bf1d7afcb8/deploy-status)](https://app.netlify.com/sites/azuracast-radio-test/deploys)
 
 ---
-
--

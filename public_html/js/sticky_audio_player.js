@@ -23,9 +23,7 @@ function loadNowPlaying() {
       var art_url_next = np.playing_next.song.art;
       var time_play = np.now_playing.elapsed;
       var dj_name = np.now_playing.streamer;
-    
-      var time = np.now_playing.elapsed
-
+      
       var on_air = np.live.is_live;
       var live = '<i class="text-danger fas fa-compact-disc fa-spin fa-3x fa-fw" aria-hidden="true" title="LIVE"></i>';
       var onair = '<i class="fas fa-compact-disc fa-spin fa-3x fa-fw" aria-hidden="true" title="OnAir"></i>';
@@ -39,6 +37,7 @@ function loadNowPlaying() {
         $('#icon').html(off_line + "<br><h4>::: OffLine :::</h4>");
       }
 
+      
       $(".output").html(info + '<br><img src="' + art_url + '" />');
 
       $(".station-name").text(station_name);
@@ -59,8 +58,6 @@ function loadNowPlaying() {
 
       $(".live-dj-name").text(np.live.streamer_name);
       $(".live-dj-art").html('<img src="' + np.live.art + '" class="img-fluid" style="width:20px;height:20px;" />');
-
-   
 
 
       nowPlayingTimeout = setTimeout(loadNowPlaying, 15000);

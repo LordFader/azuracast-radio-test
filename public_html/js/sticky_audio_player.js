@@ -81,7 +81,7 @@ $(document).ready(function () {
       url: 'https://demo.azuracast.com/listen/azuratest_radio/radio.mp3',
       position: 'bottom', //'bottom'|'top'|'inline'
       text: '...',
-      image: 'images/AzuraCast Default Album Art.png',
+      image: 'images/AzuraCast_Default_Album_Art.png',
       download: 'https://demo.azuracast.com/public/azuratest_radio/playlist.m3u', //download link
       volume: 90,
       repeat: false,
@@ -93,10 +93,10 @@ $(document).ready(function () {
       url: 'https://demo.azuracast.com/listen/azuratest_radio/radio.mp3',
       position: 'inline',
       text: '...',
-      image: 'images/AzuraCast Default Album Art.png',
+      image: 'images/AzuraCast_Default_Album_Art.png',
       download: 'https://demo.azuracast.com/public/azuratest_radio/playlist.m3u', //download link
       volume: 90,
-      image: 'images/AzuraCast Default Album Art.png',
+      image: 'images/AzuraCast_Default_Album_Art.png',
       theme: 'compact',
       repeat: true,
     }

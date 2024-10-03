@@ -27,7 +27,7 @@ function loadNowPlaying() {
       var on_air = np.live.is_live;
       var live = '<i class="text-danger fas fa-compact-disc fa-spin fa-3x fa-fw" aria-hidden="true" title="LIVE"></i>';
       var onair = '<i class="fas fa-compact-disc fa-spin fa-3x fa-fw" aria-hidden="true" title="OnAir"></i>';
-      var off_line = '<i class="fas fa-cog fa-3x fa-fw" aria-hidden="true" title="OffLine"></i>';
+      var off_line = '<i class="fas fa-compact-disc fa-3x fa-fw" aria-hidden="true" title="OffLine"></i>';
 
       if (on_air === true) {
         $('#icon').html(live + "<br><h2>::: LIVE :::</h2>");

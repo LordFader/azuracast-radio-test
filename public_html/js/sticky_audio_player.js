@@ -30,9 +30,9 @@ function loadNowPlaying() {
       var off_line = '<i class="fas fa-compact-disc fa-3x fa-fw" aria-hidden="true" title="OffLine"></i>';
 
       if (on_air === true) {
-        $('#icon').html(live + "<br><h2>::: LIVE :::</h2>");
+        $('#icon').html(live + '<br><h2 class="text-danger fa-beat">::: LIVE :::</h2>');
       } else if (on_air === false) {
-        $('#icon').html(onair + "<br><h3>::: NOW on AIR :::</h3>");
+        $('#icon').html(onair + '<br><h3 class="text-danger fa-fade">::: NOW on AIR :::</h3>');
       } else {
         $('#icon').html(off_line + "<br><h4>::: OffLine :::</h4>");
       }

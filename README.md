@@ -1,6 +1,21 @@
 # Azuracast-Radio-Test
 
-Testing a external webpage with sticky audio player and Grayscale Bootstrap
+Draft inspiration project.
+
+Alternative Public Page for Azuracast
+
+Use outside the playout server (eg: web hosting service).
+
+It's a mix of two projects:
+
+* [Startbootstrap-grayscale](https://github.com/StartBootstrap/startbootstrap-grayscale)
+* [Sticky-Responsive-Audio-Player-Jquery](https://github.com/lucasato/Sticky-Responsive-Audio-Player-Jquery)
+
+Testing HTML5 webpage with Sticky Audio Player and Grayscale Bootstrap.
+
+Colecting data from [**azuracast public demo**](https://demo.azuracast.com/)
+
+![colecting-stream-metadata](image/README/colecting-stream-metadata.png)
 
 ---
 

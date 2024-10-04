@@ -15,10 +15,7 @@ Testing HTML5 webpage with Sticky Audio Player and Grayscale Bootstrap.
 
 Colecting data from [**azuracast public demo**](https://demo.azuracast.com/)
 
-<figure markdown="span">
-  ![colecting-stream-metadata](./public_html/images/README/colecting-stream-metadata.png){ width="300" }
-  <figcaption>Image caption</figcaption>
-</figure>
+![colecting-stream-metadata](./public_html/images/README/colecting-stream-metadata.png){ width="300" }
 
 ![colecting-stream-metadata](./public_html/images/README/colecting-stream-metadata.png)
 
